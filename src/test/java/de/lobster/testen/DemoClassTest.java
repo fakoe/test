@@ -19,7 +19,7 @@ class DemoClassTest {
 	void test2() {
 		DemoClass testClass = new DemoClass();
 		
-		assertEquals(7, testClass.execute(2, 3));
+		assertEquals(8, testClass.execute(2, 4));
 	}
 
 }
