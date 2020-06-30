@@ -21,5 +21,14 @@ class DemoClassTest {
 		
 		assertEquals(8, testClass.execute(2, 4));
 	}
+	
+	@Test
+	@DisplayName("Trying again")
+	void test3() {
+		DemoClass testClass = new DemoClass();
+		
+		assertEquals(6, testClass.add(2, 4));
+	}
+
 
 }
