@@ -3,27 +3,31 @@
   <groupId>de.lobster.fabian</groupId>
   <artifactId>de.lobster.testen</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+    
+<properties>
+	<maven.compiler.source>1.8</maven.compiler.source>
+	<maven.compiler.target>1.8</maven.compiler.target>
+</properties>
 
 <dependencies>
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter</artifactId>
-			<version>5.6.2</version>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
+	<dependency>
+		<groupId>org.junit.jupiter</groupId>
+		<artifactId>junit-jupiter</artifactId>
+		<version>5.6.2</version>
+		<scope>test</scope>
+	</dependency>
+</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.6.0</version>
-			</plugin>
-			<plugin>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.22.2</version>
-			</plugin>
-		</plugins>
-	</build>
-	
+<build>
+	<plugins>
+		<plugin>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<version>3.6.0</version>
+		</plugin>
+		<plugin>				<artifactId>maven-surefire-plugin</artifactId>
+			<version>2.22.2</version>
+		</plugin>
+	</plugins>
+</build>
+
 </project>
