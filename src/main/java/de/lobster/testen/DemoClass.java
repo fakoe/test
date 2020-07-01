@@ -8,6 +8,7 @@ public class DemoClass {
 		double res2 = a.add(2, 2);
 		System.out.println(res1);
 		System.out.println(res2);
+		System.out.println("Ende");
 
 	}
 
